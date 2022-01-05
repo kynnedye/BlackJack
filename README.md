@@ -1,1 +1,2 @@
 # BlackJack
+This is one of the first project I made using vanilla JavaScript. I used html, css and vanilla Javascript to make a basic Black Jack card game. The first time I coded this app I just used a basic numbers display. However as I learned more Javascript I came back and added actual cards by calling from the deck of cards api. (https://deckofcardsapi.com/). Its a super basic game, I may come back to it in the future to add more functionality.
