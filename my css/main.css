@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+   background-image: url(/images/blackj.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: 8em;
+    line-height: 3em;
+    
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.font{
+    font-size: 30px;
+}
+button{
+    width: 150px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    background: maroon;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+.new-card{
+    background: transparent;
+    color:white;
+    border: white 2px solid;
+}
+.start-over{
+    border: none;
+    width: 80px;
+    
+}
+#over-lay{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(0,0,0,.4);
+}
+#button-container{
+    background-image: url(https://images.unsplash.com/photo-1626775238053-4315516eedc9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1773&q=80);
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
