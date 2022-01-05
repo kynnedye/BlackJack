@@ -109,6 +109,7 @@ function reset(){
     sumEl.textContent = ""
     resetBtn.style.display = "none"
     newCardBtn.style.display = "inline-block"
+    startOver.style.display ="none"
     allCards = []
     sum = 0
     isAlive = true
