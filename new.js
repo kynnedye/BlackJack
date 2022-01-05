@@ -113,6 +113,7 @@ function reset(){
     allCards = []
     sum = 0
     isAlive = true
+    hasBlackJack = false
     cardContainer.innerHTML = ""
     phraseEl.textContent = "May lady luck be on your side"
 
